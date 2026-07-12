@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\www.leptopi.ge\\.nuget\\packages\\",
+        "outputPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\www.leptopi.ge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\www.leptopi.ge\\.dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\www.leptopi.ge\\.nuget\\packages\\",
+        "outputPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\www.leptopi.ge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\www.leptopi.ge\\.dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\www.leptopi.ge\\.nuget\\packages\\",
+        "outputPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\www.leptopi.ge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Data\\Data.csproj": {
+                "projectPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Data\\Data.csproj"
+              },
+              "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Desktop\\WebAPISolution\\WebAPISolution\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\www.leptopi.ge\\.dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
